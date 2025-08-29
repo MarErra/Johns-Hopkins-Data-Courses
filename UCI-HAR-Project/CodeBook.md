@@ -41,10 +41,10 @@ The dataset was originally split into **70% training** and **30% test** sets.
 
 The tidy dataset contains **180 rows** and **89 variables**.  
 
-- **Identifiers**:  
+- **Identifiers**:   
+  - `Activity_Name`: Character, descriptive activity name (e.g., WALKING, SITTING).
+  - `Activity_Code`: Integer, numeric code representing the activity (1–6).
   - `Subject`: Integer, identifies the participant (values: 1–30).  
-  - `Activity_Code`: Integer, numeric code representing the activity (1–6).  
-  - `Activity_Name`: Character, descriptive activity name (e.g., WALKING, SITTING).  
 
 - **Measurements**:  
   - All remaining variables are **averages of sensor signals** (accelerometer and gyroscope).  
